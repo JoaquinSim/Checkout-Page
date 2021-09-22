@@ -1,0 +1,237 @@
+body{
+  font-family: monospace;
+}
+
+.form-Checkout{
+  position:relative;
+  left: 25%;
+  width:400px;
+  height:650px;
+}
+.titulo{
+  font-size:18px;
+}
+.Contact-information label{
+  position:relative;
+  top: 10px;
+  font-size: 13px;
+}
+.Contact-information h2{
+  position:relative;
+  top: 15px;
+  font-size: 17px;
+}
+.Contact-information input{
+  position:relative;
+  top: 10px;
+  width: 100%;
+  height: 40px;
+  border: 1px rgb(85,85,85) solid;
+  border-radius: 8px;
+}
+.Shipping-address {
+  position:relative;
+  top: 30px;
+}
+.Shipping-address h2{
+  position:relative;
+  top: 15px;
+  font-size: 17px;
+}
+.Shipping-address label{
+  position:relative;
+  top: 10px;
+  font-size: 13px;
+}
+.Shipping-address input{
+  position:relative;
+  top: 10px;
+  width: 100%;
+  height: 40px;
+  border-radius: 8px;
+  border: 1px rgb(85,85,85) solid;
+}
+.counpos{
+  position:relative;
+  top: 30px;
+}
+.counpos select{
+  position:relative;
+  top: 10px;
+  width: 45%;
+  height: 40px;
+  border-radius: 8px;
+}
+.counpos label{
+  position: relative;
+  top: -45px;
+  left: 235px;
+  font-size: 13px;
+}
+.counpos input{
+  position: relative;
+ top: -45px;
+ left: 230px;
+  width: 43%;
+  height: 35px;
+  border: 1px rgb(85,85,85) solid;
+  border-radius: 8px;
+}
+.checkbox {
+  position: relative;
+  top:30px;
+}
+.checkbox input{
+  position: relative;
+  top: -40px;
+  width: 10px;
+}
+.checkbox p{
+  position: relative;
+  top: -64px;
+  left: 20px;
+  font-size: 10px;
+}
+.button button{
+  position: relative;
+  top: -20px;
+  left: 74%;
+  width: 110px;
+  height: 40px;
+    border: 1px rgb(85,85,85) solid;
+  border-radius: 6px;
+  background-color: #EB984E;
+  color: white;
+}
+
+/*Items*/
+.items{
+  background-color: #CCD1D1;
+  position: relative;
+  top: -580px;
+  left: 60%;
+  width:280px;
+  height:390px;
+}
+.items .item-1{
+width: 300px;
+height: 140px;
+}
+.items .item-1 img{
+  top: 10%;
+  left: 6%;
+position: relative;
+width: 100px;
+height: 100px;
+border-radius: 10px;
+}
+.items .item-1 h1{
+  position: relative;
+  top: -100px;
+  left: 42.5%;
+  font-size: 14px;
+
+}
+.items .item-1 h2{
+  position: relative;
+  top: -108px;
+  left: 42.5%;
+  font-size: 12px;
+  color:  #F5B041;
+
+}
+.items .item-1 h3{
+  position: relative;
+  top: -133px;
+  left: 62.5%;
+  font-size: 11px;
+}
+.items .item-1 input{
+  position: relative;
+  top: -133px;
+  left: 50%;
+  height: 30px;
+  width: 70px;
+  text-align: center;
+  background-color:#CCD1D1;
+  border-radius: 8px;
+}
+.items .item-2{
+  position: relative;
+  top: -20px;
+width: 300px;
+height: 140px;
+}
+.items .item-2 img{
+  top: 10%;
+  left: 6%;
+position: relative;
+width: 100px;
+height: 100px;
+border-radius: 10px;
+}
+.items .item-2 h1{
+  position: relative;
+  top: -100px;
+  left: 42.5%;
+  font-size: 14px;
+
+}
+.items .item-2 h2{
+  position: relative;
+  top: -108px;
+  left: 42.5%;
+  font-size: 12px;
+  color:  #F5B041;
+
+}
+.items .item-2 h3{
+  position: relative;
+  top: -133px;
+  left: 62.5%;
+  font-size: 11px;
+}
+.items .item-2 input{
+  position: relative;
+  top: -133px;
+  left: 50%;
+  height: 30px;
+  width: 70px;
+  text-align: center;
+  background-color:#CCD1D1;
+  border-radius: 8px;
+}
+.shipping hr{
+ position: relative;
+ top: 25px;
+ width: 260px;
+}
+.shipping h1{
+ position: relative;
+ top: 15px;
+ left: 4%;
+ font-size: 14px;
+}
+.shipping p{
+ position: relative;
+ top: -18px;
+ left: 85%;
+ font-size: 14px;
+}
+.total hr{
+ position: relative;
+ top: -20px;
+ width: 260px;
+}
+.total h1{
+ position: relative;
+ top: -30px;
+ left: 4%;
+ font-size: 14px;
+}
+.total p{
+ position: relative;
+ top: -60px;
+ left: 75%;
+ font-size: 14px;
+}
