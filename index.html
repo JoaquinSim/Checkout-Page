@@ -13,42 +13,41 @@
       </div>
     </header>
     <main>
+      <form>
       <section class="form-Checkout">
         <div class="Contact-information">
-          <form>
           <h2>Contact information</h2>
           <label class="email">E-mail</label>
-          <input type="email" class="email" placeholder="Enter your email...">
+          <input type="email" class="email" placeholder="Enter your email..." required>
           <label class="phone">Phone</label>
-          <input type="text" class="phone" placeholder="Enter your phone...">
+          <input type="text" maxlength="10" class="phone" placeholder="Enter your phone..." required>
         </div>
         <div class="Shipping-address">
           <h2>Shipping address</h2>
           <label class="name">Full name</label>
-          <input type="text" class="name" placeholder="Your name...">
+          <input type="text" class="name" placeholder="Your name..." required>
           <label class="address">Address</label>
-          <input type="text" class="address" placeholder="Your address...">
+          <input type="text" class="address" placeholder="Your address..." required>
           <label class="city">City</label>
-          <input type="text" class="city" placeholder="Your city...">
+          <input type="text" class="city" placeholder="Your city..." required>
           </div>
 
           <div class="counpos">
           <label class="country">Country</label><br>
-          <select class="country" >
+          <select class="country" required>
             <option>Ecuador</option>
             <option>Peru</option>
             <option>Bolivia</option>
           </select><br>
           <label class="postal">Postal code</label><br>
-          <input class="postal" type="text" placeholder="Your postal code...">
+          <input class="postal" type="text" placeholder="Your postal code..." required>
           </div>
           <div class="checkbox">
-          <input class="checkbox" type="checkbox"><p>Save this information for the next time</p>
+          <input class="checkbox" type="checkbox" required><p>Save this information for the next time</p>
         </div>
         <div class="button">
-          <button>Continue</button>
+          <input type="submit" value="Continue">
         </div>
-      </form>
 
       </section>
       <section class="items">
@@ -77,7 +76,7 @@
           <p>$149.98</p>
         </div>
       </section>
-
+      </form>
     </main>
   </body>
 </html>
