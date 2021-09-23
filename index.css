@@ -1,101 +1,157 @@
 body{
   font-family: monospace;
 }
+/*Titulo*/
+header{
+  width:20%;
+  height:70px;;
+  position:relative;
+  left: 15%;
+}
+.titulo h1{
+    position:relative;
+    top: 30px;
+    font-size:22px;
+}
 
+/*Formulario*/
 .form-Checkout{
   position:relative;
-  left: 25%;
-  width:400px;
-  height:650px;
+  left: 15%;
+  width:28%;
+  height:550px;
 }
-.titulo{
-  font-size:18px;
-}
-.Contact-information label{
-  position:relative;
-  top: 10px;
-  font-size: 13px;
+/*informacion de contacto*/
+.Contact-information {
+    height:165px;
 }
 .Contact-information h2{
   position:relative;
-  top: 15px;
+  top: 10px;
   font-size: 17px;
 }
-.Contact-information input{
+label.email{
+  position:relative;
+  top: 8px;
+  font-size: 12px;
+}
+input.email{
   position:relative;
   top: 10px;
   width: 100%;
-  height: 40px;
+  height: 35px;
   border: 1px rgb(85,85,85) solid;
   border-radius: 8px;
 }
-.Shipping-address {
+label.phone{
   position:relative;
-  top: 30px;
+  top: 20px;
+  font-size: 12px;
+}
+input.phone{
+  position:relative;
+  top: 22.5px;
+  width: 100%;
+  height: 35px;
+  border: 1px rgb(85,85,85) solid;
+  border-radius: 8px;
+}
+/*Direccion*/
+.Shipping-address {
+  height: 220px;
 }
 .Shipping-address h2{
   position:relative;
   top: 15px;
   font-size: 17px;
 }
-.Shipping-address label{
+label.name{
   position:relative;
   top: 10px;
-  font-size: 13px;
+  font-size: 12px;
 }
-.Shipping-address input{
+ input.name{
   position:relative;
   top: 10px;
   width: 100%;
-  height: 40px;
-  border-radius: 8px;
-  border: 1px rgb(85,85,85) solid;
-}
-.counpos{
-  position:relative;
-  top: 30px;
-}
-.counpos select{
-  position:relative;
-  top: 10px;
-  width: 45%;
-  height: 40px;
-  border-radius: 8px;
-}
-.counpos label{
-  position: relative;
-  top: -45px;
-  left: 235px;
-  font-size: 13px;
-}
-.counpos input{
-  position: relative;
- top: -45px;
- left: 230px;
-  width: 43%;
   height: 35px;
+  border-radius: 8px;
   border: 1px rgb(85,85,85) solid;
+}
+label.address{
+  position:relative;
+  top: 17px;
+  font-size: 12px;
+}
+ input.address{
+  position:relative;
+  top: 17px;
+  width: 100%;
+  height: 35px;
+  border-radius: 8px;
+  border: 1px rgb(85,85,85) solid;
+}
+label.city{
+  position:relative;
+  top: 25px;
+  font-size: 12px;
+}
+ input.city{
+  position:relative;
+  top: 25px;
+  width: 100%;
+  height: 35px;
+  border-radius: 8px;
+  border: 1px rgb(85,85,85) solid;
+}
+
+/*Pais-CodigoPostal*/
+.counpos{
+  height: 60px;
+}
+label.country{
+  position:relative;
+  font-size: 12px;
+  top: 7px;
+}
+select.country{
+  position: relative;
+  top: 8px;
+  width: 46%;
+  height: 35px;
   border-radius: 8px;
 }
-.checkbox {
-  position: relative;
-  top:30px;
+label.postal{
+  position:relative;
+  font-size: 12px;
+  top: -42.5px;
+  left: 50%;
 }
-.checkbox input{
+input.postal{
+  position:relative;
+  width: 50%;
+  top: -44px;
+  left: 50%;
+  height: 32px;
+  border-radius: 8px;
+  border: 1px rgb(85,85,85) solid;
+}
+
+/*Boton*/
+input.checkbox{
   position: relative;
-  top: -40px;
   width: 10px;
 }
 .checkbox p{
   position: relative;
-  top: -64px;
+  top: -25px;
   left: 20px;
-  font-size: 10px;
+  font-size: 10.3px;
 }
 .button button{
   position: relative;
   top: -20px;
-  left: 74%;
+  left: 72%;
   width: 110px;
   height: 40px;
   border: 1px rgb(85,85,85) solid;
@@ -113,40 +169,40 @@ body{
   width:280px;
   height:390px;
 }
-.items .item-1{
-width: 300px;
-height: 140px;
+.item-1{
+  width: 100%;;
+  height: 38%;
 }
-.items .item-1 img{
+.item-1 img{
   top: 10%;
   left: 6%;
-position: relative;
-width: 100px;
-height: 100px;
-border-radius: 10px;
-}
-.items .item-1 h1{
   position: relative;
-  top: -100px;
-  left: 42.5%;
+  width: 35%;
+  height: 65%;
+  border-radius: 10px;
+}
+.item-1 h1{
+  position: relative;
+  top: -98px;
+  left: 45%;
   font-size: 14px;
 
 }
-.items .item-1 h2{
+.item-1 h2{
   position: relative;
   top: -108px;
-  left: 42.5%;
+  left: 45%;
   font-size: 12px;
-  color:  #F5B041;
+  color: #F5B041;
 
 }
-.items .item-1 h3{
+.item-1 h3{
   position: relative;
   top: -133px;
-  left: 62.5%;
+  left: 65%;
   font-size: 11px;
 }
-.items .item-1 input{
+.item-1 input{
   position: relative;
   top: -133px;
   left: 50%;
@@ -156,44 +212,44 @@ border-radius: 10px;
   background-color:#CCD1D1;
   border-radius: 8px;
 }
-.items .item-2{
+.item-2{
   position: relative;
   top: -20px;
-width: 300px;
-height: 140px;
+  width: 100%;
+  height: 32.5%;
 }
-.items .item-2 img{
+.item-2 img{
   top: 10%;
   left: 6%;
-position: relative;
-width: 100px;
-height: 100px;
-border-radius: 10px;
-}
-.items .item-2 h1{
   position: relative;
-  top: -100px;
-  left: 42.5%;
+  width: 35%;
+  height: 70%;
+  border-radius: 10px;
+}
+.item-2 h1{
+  position: relative;
+  top: -90px;
+  left: 45%;
   font-size: 14px;
 
 }
-.items .item-2 h2{
+.item-2 h2{
   position: relative;
-  top: -108px;
-  left: 42.5%;
+  top: -100px;
+  left: 45%;
   font-size: 12px;
   color:  #F5B041;
 
 }
-.items .item-2 h3{
+.item-2 h3{
   position: relative;
-  top: -133px;
-  left: 62.5%;
+  top: -126px;
+  left: 65%;
   font-size: 11px;
 }
-.items .item-2 input{
+.item-2 input{
   position: relative;
-  top: -133px;
+  top: -127px;
   left: 50%;
   height: 30px;
   width: 70px;

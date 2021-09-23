@@ -7,43 +7,49 @@
     <link rel="stylesheet" href="./index.css">
   </head>
   <body>
+    <header>
+      <div class="titulo">
+        <h1>Checkout</h1>
+      </div>
+    </header>
     <main>
       <section class="form-Checkout">
-        <div class="titulo">
-          <h1>Checkout</h1>
-        </div>
         <div class="Contact-information">
+          <form>
           <h2>Contact information</h2>
-          <label for="email">E-mail</label><br>
-          <input  type="email" id="email" placeholder="Enter your email..."><br><br>
-          <label for="phone">Phone</label><br>
-          <input type="text" id="phone" placeholder="Enter your phone...">
+          <label class="email">E-mail</label>
+          <input type="email" class="email" placeholder="Enter your email...">
+          <label class="phone">Phone</label>
+          <input type="text" class="phone" placeholder="Enter your phone...">
         </div>
         <div class="Shipping-address">
           <h2>Shipping address</h2>
-          <label for="name">Full name</label><br>
-          <input type="text" id="name" placeholder="Your name..."><br><br>
-          <label for="text">Address</label><br>
-          <input type="text" id="address" placeholder="Your address..."><br><br>
-          <label for="city">City</label><br>
-          <input type="text" placeholder="Your city..."><br><br>
-          <label for="country">Country</label><br>
+          <label class="name">Full name</label>
+          <input type="text" class="name" placeholder="Your name...">
+          <label class="address">Address</label>
+          <input type="text" class="address" placeholder="Your address...">
+          <label class="city">City</label>
+          <input type="text" class="city" placeholder="Your city...">
           </div>
+
           <div class="counpos">
+          <label class="country">Country</label><br>
           <select class="country" >
             <option>Ecuador</option>
             <option>Peru</option>
             <option>Bolivia</option>
           </select><br>
-          <label for="postal">Postal code</label><br>
-          <input class="codepostal" type="text" placeholder="Your postal code..."><br><br>
+          <label class="postal">Postal code</label><br>
+          <input class="postal" type="text" placeholder="Your postal code...">
           </div>
           <div class="checkbox">
-          <input type="checkbox"><p>Save this information for the next time</p>
+          <input class="checkbox" type="checkbox"><p>Save this information for the next time</p>
         </div>
         <div class="button">
-          <button onclick="">Continue</button>
+          <button>Continue</button>
         </div>
+      </form>
+
       </section>
       <section class="items">
         <div class="item-1">
@@ -51,26 +57,27 @@
           <h1>Vintage Backbag</h1>
           <h2>$54.99</h2>
           <h3>$94.99</h3>
-          <input type="number" min="1">
+          <input class="numeroItem" type="number" min="1">
         </div>
         <div class="item-2">
           <img src="./Imagenes/photo2.png" alt="">
           <h1>Levi Shoes</h1>
           <h2>$74.99</h2>
           <h3>$124.99</h3>
-          <input type="number" min="1">
+          <input class="numeroItem" type="number" min="1">
         </div>
         <div class="shipping">
           <hr>
           <h1>Shipping</h1>
-          <p id="shipping">$19</p>
+          <p>$19</p>
         </div>
         <div class="total">
             <hr>
           <h1>Total</h1>
-          <p id="total">$149.98</p>
+          <p>$149.98</p>
         </div>
       </section>
+
     </main>
   </body>
 </html>
