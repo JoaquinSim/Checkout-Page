@@ -1,293 +1,94 @@
+
 body{
   font-family: monospace;
 }
+
+main{
+  width: 400px;
+  height: 1400px;
+}
+
 /*Titulo*/
-header{
-  width:20%;
-  height:70px;;
-  position:relative;
-  left: 20%;
-}
-.titulo h1{
+.titulo-Checkout{
     position:relative;
-    top: 30px;
     font-size:22px;
-}
-
-/*Formulario*/
-.form-Checkout{
-  position:relative;
-  left: 20%;
-  width:28%;
-  height:550px;
-}
-/*informacion de contacto*/
-.Contact-information {
-    height:165px;
-}
-.Contact-information h2{
-  position:relative;
-  top: 10px;
-  font-size: 17px;
-}
-label.email{
-  position:relative;
-  top: 8px;
-  font-size: 12px;
-}
-input.email{
-  position:relative;
-  top: 10px;
-  width: 100%;
-  height: 35px;
-  border: 1px rgb(85,85,85) solid;
-  border-radius: 8px;
-}
-label.phone{
-  position:relative;
-  top: 20px;
-  font-size: 12px;
-}
-input.phone{
-  position:relative;
-  top: 22.5px;
-  width: 100%;
-  height: 35px;
-  border: 1px rgb(85,85,85) solid;
-  border-radius: 8px;
-}
-/*Direccion*/
-.Shipping-address {
-  height: 220px;
-}
-.Shipping-address h2{
-  position:relative;
-  top: 15px;
-  font-size: 17px;
-}
-label.name{
-  position:relative;
-  top: 10px;
-  font-size: 12px;
-}
- input.name{
-  position:relative;
-  top: 10px;
-  width: 100%;
-  height: 35px;
-  border-radius: 8px;
-  border: 1px rgb(85,85,85) solid;
-}
-label.address{
-  position:relative;
-  top: 17px;
-  font-size: 12px;
-}
- input.address{
-  position:relative;
-  top: 17px;
-  width: 100%;
-  height: 35px;
-  border-radius: 8px;
-  border: 1px rgb(85,85,85) solid;
-}
-label.city{
-  position:relative;
-  top: 25px;
-  font-size: 12px;
-}
- input.city{
-  position:relative;
-  top: 25px;
-  width: 100%;
-  height: 35px;
-  border-radius: 8px;
-  border: 1px rgb(85,85,85) solid;
-}
-
-/*Pais-CodigoPostal*/
-.counpos{
-  height: 60px;
-}
-label.country{
-  position:relative;
-  font-size: 12px;
-  top: 7px;
-}
-select.country{
-  position: relative;
-  top: 8px;
-  width: 46%;
-  height: 35px;
-  border-radius: 8px;
-}
-label.postal{
-  position:relative;
-  font-size: 12px;
-  top: -42.5px;
-  left: 50%;
-}
-input.postal{
-  position:relative;
-  width: 50%;
-  top: -44px;
-  left: 50%;
-  height: 32px;
-  border-radius: 8px;
-  border: 1px rgb(85,85,85) solid;
-}
-
-/*Boton*/
-input.checkbox{
-  position: relative;
-  width: 10px;
-}
-.checkbox p{
-  position: relative;
-  top: -25px;
-  left: 20px;
-  font-size: 10.3px;
-}
-.button input{
-  position: relative;
-  top: -20px;
-  left: 72%;
-  width: 110px;
-  height: 40px;
-  border: 1px rgb(85,85,85) solid;
-  border-radius: 6px;
-  background-color: #EB984E;
-  color: white;
+    width: 25%;
+    top:10px;
+    left: 10px
 }
 
 /*Items*/
 .items{
-  background-color: #CCD1D1;
-  position: relative;
-  top: -580px;
-  left: 55%;
-  width:280px;
-  height:390px;
+  background-color: #F2F3F4;
+  width: 380px;
+  height: 700px;
+  margin: 30px 10px 10px 10px;
+  border-radius: 8px;
 }
 .item-1{
-  width: 100%;;
-  height: 38%;
+  position: relative;
+  background-color: white;
+  margin: 10px 10px 10px 10px;
+  width:360px;
+  height: 250px;
 }
 .item-1 img{
-  top: 10%;
-  left: 6%;
   position: relative;
-  width: 35%;
-  height: 65%;
-  border-radius: 10px;
-}
-.item-1 h1{
-  position: relative;
-  top: -98px;
-  left: 45%;
-  font-size: 14px;
-
-}
-.item-1 h2{
-  position: relative;
-  top: -108px;
-  left: 45%;
-  font-size: 12px;
-  color: #F5B041;
-
-}
-.item-1 h3{
-  position: relative;
-  top: -133px;
-  left: 65%;
-  font-size: 11px;
-}
-.item-1 input{
-  position: relative;
-  top: -133px;
-  left: 50%;
-  height: 30px;
-  width: 70px;
-  text-align: center;
-  background-color:#CCD1D1;
+  top:20px;
+  left: 20px;
+  width: 110px;
   border-radius: 8px;
 }
-.item-2{
-  position: relative;
-  top: -20px;
-  width: 100%;
-  height: 32.5%;
-}
-.item-2 img{
-  top: 10%;
-  left: 6%;
-  position: relative;
-  width: 35%;
-  height: 70%;
-  border-radius: 10px;
-}
-.item-2 h1{
-  position: relative;
-  top: -90px;
-  left: 45%;
-  font-size: 14px;
-
-}
-.item-2 h2{
+.titulo-vintage{
   position: relative;
   top: -100px;
-  left: 45%;
-  font-size: 12px;
-  color:  #F5B041;
+  left: 40%;
+  width: 50%;
+}
+.titulo-vintage h1{
+  font-size: 13px;
+  width: 100%;
+}
 
-}
-.item-2 h3{
+.precio h2{
+  font-size: 13px;
   position: relative;
-  top: -126px;
-  left: 65%;
-  font-size: 11px;
+  left: 40%;
+  top: -105px;
+  color: #F5B041;
 }
-.item-2 input{
+.precio-anterior h3{
+  font-size: 10px;
   position: relative;
-  top: -127px;
-  left: 50%;
+  left: 60%;
+  top: -130px;
+}
+.numeroItems{
+  width:20%;
   height: 30px;
-  width: 70px;
   text-align: center;
-  background-color:#CCD1D1;
-  border-radius: 8px;
+  position: relative;
+  top: -100px;
+  left: 40%;
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
+  border-radius: 5px;
 }
-.shipping hr{
- position: relative;
- top: 25px;
- width: 260px;
+button {
+  position: relative;
+  top: 6px;
+  width: 1%;
+  height: 10px;
+  border: none;
+  border-radius: 2px;
+  left: -5px;
 }
-.shipping h1{
- position: relative;
- top: 15px;
- left: 4%;
- font-size: 14px;
+.numeroitem{
+  width: 10%;
+  position: relative;
+  top: 5px;
 }
-.shipping p{
- position: relative;
- top: -18px;
- left: 85%;
- font-size: 14px;
-}
-.total hr{
- position: relative;
- top: -20px;
- width: 260px;
-}
-.total h1{
- position: relative;
- top: -30px;
- left: 4%;
- font-size: 14px;
-}
-.total p{
- position: relative;
- top: -60px;
- left: 75%;
- font-size: 14px;
+@media only screen and (min-width: 600px) {
+
 }

@@ -2,18 +2,53 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Checkout page</title>
     <link rel="shortcut icon" href="Imagenes/shopping_cart.svg" type="image/x-icon">
     <link rel="stylesheet" href="./index.css">
   </head>
   <body>
-    <header>
-      <div class="titulo">
-        <h1>Checkout</h1>
-      </div>
-    </header>
     <main>
       <form>
+        <h1 class="titulo-Checkout">Checkout</h1>
+        <section class="items">
+          <div class="item-1">
+            <img src="./Imagenes/photo1.png" alt="">
+            <div class="titulo-vintage">
+              <h1>Vintage Backbag</h1>
+            </div>
+            <div class="precio">
+              <h2>$54.99</h2>
+            </div>
+            <div class="precio-anterior">
+              <h3>$94.99</h3>
+            </div>
+            <div class="numeroItems">
+              <button type="button" class="less"></button>
+                    <input type="text" maxlength="3" class="numeroitem" >
+              <button type="button" class="more"></button>
+            </div>
+          </div>
+          <div class="item-2">
+            <img src="./Imagenes/photo2.png" alt="">
+            <h1>Levi Shoes</h1>
+            <h2>$74.99</h2>
+            <h3>$124.99</h3>
+            <button type="button" class="less">-</button>
+                  <input type="text" maxlength="3" class="numeroItems">
+            <button type="button" class="more">+</button>
+          </div>
+          <div class="shipping">
+            <hr>
+            <h1>Shipping</h1>
+            <p>$19</p>
+          </div>
+          <div class="total">
+              <hr>
+            <h1>Total</h1>
+            <p>$149.98</p>
+          </div>
+        </section>
       <section class="form-Checkout">
         <div class="Contact-information">
           <h2>Contact information</h2>
@@ -49,32 +84,6 @@
           <input type="submit" value="Continue">
         </div>
 
-      </section>
-      <section class="items">
-        <div class="item-1">
-          <img src="./Imagenes/photo1.png" alt="">
-          <h1>Vintage Backbag</h1>
-          <h2>$54.99</h2>
-          <h3>$94.99</h3>
-          <input class="numeroItem" type="number" min="1">
-        </div>
-        <div class="item-2">
-          <img src="./Imagenes/photo2.png" alt="">
-          <h1>Levi Shoes</h1>
-          <h2>$74.99</h2>
-          <h3>$124.99</h3>
-          <input class="numeroItem" type="number" min="1">
-        </div>
-        <div class="shipping">
-          <hr>
-          <h1>Shipping</h1>
-          <p>$19</p>
-        </div>
-        <div class="total">
-            <hr>
-          <h1>Total</h1>
-          <p>$149.98</p>
-        </div>
       </section>
       </form>
     </main>
