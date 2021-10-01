@@ -8,84 +8,100 @@
     <link rel="stylesheet" href="./index.css">
   </head>
   <body>
-    <main>
-      <form>
-        <h1 class="titulo-Checkout">Checkout</h1>
-        <section class="items">
-          <div class="item-1">
-            <img src="./Imagenes/photo1.png" alt="">
-            <div class="titulo-vintage">
-              <h1>Vintage Backbag</h1>
-            </div>
-            <div class="precio">
-              <h2>$54.99</h2>
-            </div>
-            <div class="precio-anterior">
-              <h3>$94.99</h3>
-            </div>
-            <div class="numeroItems">
-              <button type="button" class="less"></button>
-                    <input type="text" maxlength="3" class="numeroitem" >
-              <button type="button" class="more"></button>
-            </div>
+      <h1 class="titulo-Checkout">Checkout</h1>
+          <div class="main-all">
+      <section class="main">
+        <div class="item-1">
+          <img src="./Imagenes/photo1.png" alt="">
+          <div class="titulo-vintage">
+            <h1>Vintage Backbag</h1>
           </div>
-          <div class="item-2">
-            <img src="./Imagenes/photo2.png" alt="">
-            <h1>Levi Shoes</h1>
-            <h2>$74.99</h2>
-            <h3>$124.99</h3>
+          <div class="precio">
+            <h2>$54.99</h2>
+            <h3>$94.99</h3>
+          </div>
+          <div class="numeroItems">
             <button type="button" class="less">-</button>
-                  <input type="text" maxlength="3" class="numeroItems">
+              <input type="text" maxlength="3" class="numeroitem" placeholder="1">
             <button type="button" class="more">+</button>
           </div>
+        </div>
+        <div class="item-1">
+          <img src="./Imagenes/photo2.png" alt="">
+          <div class="titulo-vintage">
+            <h1>Vintage Backbag</h1>
+          </div>
+          <div class="precio">
+            <h2>$54.99</h2>
+            <h3>$94.99</h3>
+          </div>
+          <div class="numeroItems">
+            <button type="button" class="less">-</button>
+                  <input type="text" maxlength="3" class="numeroitem" placeholder="1">
+            <button type="button" class="more">+</button>
+          </div>
+        </div>
+                <div class="valor">
+        <hr>
           <div class="shipping">
-            <hr>
-            <h1>Shipping</h1>
-            <p>$19</p>
+            <p>Shipping<p>
+            <p><b>$19</b></p>
           </div>
+          <hr>
           <div class="total">
-              <hr>
-            <h1>Total</h1>
-            <p>$149.98</p>
+            <p>Total</p>
+            <p><b>$149.98</b></p>
           </div>
-        </section>
-      <section class="form-Checkout">
-        <div class="Contact-information">
-          <h2>Contact information</h2>
-          <label class="email">E-mail</label>
-          <input type="email" class="email" placeholder="Enter your email..." required>
-          <label class="phone">Phone</label>
-          <input type="text" maxlength="10" class="phone" placeholder="Enter your phone..." required>
-        </div>
-        <div class="Shipping-address">
-          <h2>Shipping address</h2>
-          <label class="name">Full name</label>
-          <input type="text" class="name" placeholder="Your name..." required>
-          <label class="address">Address</label>
-          <input type="text" class="address" placeholder="Your address..." required>
-          <label class="city">City</label>
-          <input type="text" class="city" placeholder="Your city..." required>
-          </div>
-
-          <div class="counpos">
-          <label class="country">Country</label><br>
-          <select class="country" required>
-            <option>Ecuador</option>
-            <option>Peru</option>
-            <option>Bolivia</option>
-          </select><br>
-          <label class="postal">Postal code</label><br>
-          <input class="postal" type="text" placeholder="Your postal code..." required>
-          </div>
-          <div class="checkbox">
-          <input class="checkbox" type="checkbox" required><p>Save this information for the next time</p>
-        </div>
-        <div class="button">
-          <input type="submit" value="Continue">
         </div>
 
       </section>
-      </form>
-    </main>
+    <section class="form-Checkout">
+      <div class="Contact-information">
+        <h2>Contact information</h2>
+        <label class="email">E-mail</label>
+        <input type="email" class="email" placeholder="Enter your email..." required>
+        <label class="phone">Phone</label>
+        <input type="text" maxlength="10" class="phone" placeholder="Enter your phone..." required>
+      </div>
+      <div class="Shipping-address">
+        <h2>Shipping address</h2>
+        <label class="name">Full name</label>
+        <input type="text" class="name" placeholder="Your name..." required>
+        <label class="address">Address</label>
+        <input type="text" class="address" placeholder="Your address..." required>
+        <label class="city">City</label>
+        <input type="text" class="city" placeholder="Your city..." required>
+        </div>
+
+        <div class="counpos">
+          <div class="counpos__contry">
+            <label class="country">Country</label>
+            <select class="country" required>
+              <option>Your country...</option>
+              <option>Ecuador</option>
+              <option>Peru</option>
+              <option>Bolivia</option>
+            </select>
+          </div>
+          <div class="counpos__postal">
+            <label class="postal">Postal code</label>
+            <input class="postal" type="text" placeholder="Your postal code..." required>
+            </div>
+          </div>
+          <div class="checkbox">
+            <input class="checkbox" type="checkbox" required><p>Save this information for the next time</p>
+          </div>
+      <div class="button">
+        <input type="submit" value="Continue">
+      </div>
+    </section>
+    </div>
+
+    <footer class="footer">
+      <p>Created by</p>
+      <p class="namefooter"><u>Joaquin Simbaña</u></p>
+      <p>-devChallenge.io</p>
+    </footer>
   </body>
+  <script src="http://localhost:35729/livereload.js" charset="utf-8"></script>
 </html>

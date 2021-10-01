@@ -3,92 +3,217 @@ body{
   font-family: monospace;
 }
 
-main{
-  width: 400px;
-  height: 1400px;
+.main{
+  width: 100%;
+  background-color:#E5E8E8;
+  border-radius: 8px;
 }
-
 /*Titulo*/
 .titulo-Checkout{
-    position:relative;
-    font-size:22px;
-    width: 25%;
-    top:10px;
-    left: 10px
+  font-size:22px;
+  margin:4%;
 }
 
 /*Items*/
-.items{
-  background-color: #F2F3F4;
-  width: 380px;
-  height: 700px;
-  margin: 30px 10px 10px 10px;
-  border-radius: 8px;
-}
 .item-1{
   position: relative;
-  background-color: white;
-  margin: 10px 10px 10px 10px;
-  width:360px;
-  height: 250px;
+  margin:  10px 0 0 10px;
+  width:95%;
+  height: 120px;
 }
 .item-1 img{
-  position: relative;
-  top:20px;
-  left: 20px;
-  width: 110px;
+  margin: 20px 0 10px 5px;
+  width: 90px;
   border-radius: 8px;
 }
 .titulo-vintage{
-  position: relative;
-  top: -100px;
-  left: 40%;
+  font-size: 13px;
   width: 50%;
+  height: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+  margin: -100px 0 0 120px;
 }
 .titulo-vintage h1{
-  font-size: 13px;
+  font-size: 11px;
   width: 100%;
+  display: flex;
+  justify-content: flex-start;
+}
+.precio{
+  width: 100px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin:10px 0 10px 113px;
 }
 
 .precio h2{
-  font-size: 13px;
-  position: relative;
-  left: 40%;
-  top: -105px;
+  font-size: 11px;
   color: #F5B041;
 }
-.precio-anterior h3{
+.precio h3{
   font-size: 10px;
-  position: relative;
-  left: 60%;
-  top: -130px;
 }
 .numeroItems{
-  width:20%;
-  height: 30px;
-  text-align: center;
-  position: relative;
-  top: -100px;
-  left: 40%;
-  border-width: 1px;
-  border-style: solid;
-  border-color: black;
-  border-radius: 5px;
+  width: 90px;
+  height:28px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+  margin-left: 120px;
+  border-radius: 8px;
+  border: 1px solid black;
 }
 button {
-  position: relative;
-  top: 6px;
-  width: 1%;
-  height: 10px;
+  background-color: #CACFD2  ;
   border: none;
+  width: 15px;
+  height: 8px;
   border-radius: 2px;
-  left: -5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .numeroitem{
   width: 10%;
-  position: relative;
-  top: 5px;
+  border:none;
+  background: none;
 }
-@media only screen and (min-width: 600px) {
+.valor{
+  margin-top: 60px;
+}
+hr{
+ width: 90%;
+}
+.shipping,
+.total {
+  height: 20px;
+  margin-left: 15px;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items:flex-end;
+}
+b{
+  font-size: 12px;
+}
+.Contact-information input,
+.Shipping-address input{
+  width: 98%;
+  height: 30px;
+  border-radius: 8px;
+  border: 1px solid black;
+}
+.counpos{
+  white-space: nowrap;
+  margin: 10px 0px;
+  padding-bottom: 15px;
+  width: 100%;
+  justify-content: space-around;
+}
+.counpos__contry{
+  width: 45%;
+  display: inline-block;
+  cursor: pointer;
+  transition: 450mm all;
+  transform-origin: center left;
+  position: relative;
+  margin-right: 5%;
+}
+.counpos__postal{
+  width: 48%;
+  display: inline-block;
+  cursor: pointer;
+  transition: 450mm all;
+  transform-origin: center left;
+  position: relative;
+}
+.counpos__contry select{
+    overflow: hidden;
+    width: 100%;
+    height: 35px;
+    border-radius: 8px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+.counpos__postal select{
+  width: 100%;
+  height: 35px;
+  border-radius: 8px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+}
+.counpos input{
+  width: 97%;
+  height: 30px;
+  border-radius: 8px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+}
+.checkbox{
+  font-size: 10px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+}
+.button{
+  height: 35px;
+  display: flex;
+  justify-content: flex-end;
+}
+.button input{
+  width: 30%;
+  border-radius: 8px;
+  border: 1px solid #F5B041 ;
+  background-color: #F5B041 ;
+  color: white;
+  font-size: 15px;
+}
+.footer{
+  font-size: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+.footer p{
+  margin-right:5px;
+  color: #CCD1D1 ;
+}
+.namefooter{
+  color: #B2BABB ;
+}
+.footer{
+  margin-top: 100px;
+}
+@media only screen and (min-width: 780px) {
+  .titulo-Checkout{
+    margin-left: 225px;
+  }
+  .main-all{
+    display: flex;
+    flex-direction:row-reverse;
+    align-items:flex-start;
+    justify-content: center;
+  }
 
+ .main{
+   width: 25%;
+
+ }
+ .form-Checkout{
+   width: 30%;
+  margin-right: 90px;
+ }
 }
